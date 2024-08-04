@@ -68,7 +68,6 @@
      Preloader
   ==============================-->
   <div class="preloader ">
-    <button class="th-btn preloaderCls">Cancel Preloader</button>
     <div class="preloader-inner">
         <div class="loader">
             <span></span>
@@ -222,7 +221,7 @@ About Area
                     <div class="box-content">
                         <h3 class="box-title"><a>Vat Certificates</a></h3>
                        
-                        <button id="pdfButton1" class="th-btn btn-sm">View Now</button>
+                        <a href="assets/img/normal/Earth Materials vat registration Certificate .PDF" target="_blank" class="th-btn btn-sm">View Now</a>
                     </div>
                 </div>
             </div>
@@ -235,28 +234,12 @@ About Area
                     <div class="box-content">
                         <h3 class="box-title"><a>commercial registration</a></h3>
                        
-                        <button id="pdfButton2" class="th-btn btn-sm">View Now</button>
+                        <a href="assets/img/normal/CR Earth Material Trading Est .pdf" target="_blank" class="th-btn btn-sm">View Now</a>
                     </div>
                 </div>
             </div>
             
-            <div id="pdfModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <iframe src="" id="pdfFrame"></iframe>
-                </div>
-            </div>
-            
-
         </div>
-    </div>
-</div>
-
-
-<div id="pdfModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <iframe src="" id="pdfFrame" style="width: 100%; height: 600px;"></iframe>
     </div>
 </div>
 
@@ -661,38 +644,6 @@ Feature Area
 ============================== -->
 
 <script>
-         document.getElementById('pdfButton1').addEventListener('click', function() {
-        // Open PDF 1 in a modal
-        const modal = document.getElementById('pdfModal');
-        const pdfFrame = document.getElementById('pdfFrame');
-        pdfFrame.src = 'assets/img/normal/Earth Materials vat registration Certificate .PDF'; // Ensure correct path
-        modal.style.display = 'block';
-    });
-
-    document.getElementById('pdfButton2').addEventListener('click', function() {
-        // Open PDF 2 in a modal
-        const modal = document.getElementById('pdfModal');
-        const pdfFrame = document.getElementById('pdfFrame');
-        pdfFrame.src = 'assets/img/normal/CR Earth Material Trading Est .pdf'; // Ensure correct path
-        modal.style.display = 'block';
-    });
-
-    // Close the modal when the user clicks on <span> (x)
-    document.querySelector('.close').addEventListener('click', function() {
-        const modal = document.getElementById('pdfModal');
-        modal.style.display = 'none';
-        document.getElementById('pdfFrame').src = '';
-    });
-
-    // Close the modal when the user clicks anywhere outside of the modal
-    window.addEventListener('click', function(event) {
-        const modal = document.getElementById('pdfModal');
-        if (event.target == modal) {
-            modal.style.display = 'none';
-            document.getElementById('pdfFrame').src = '';
-        }
-    });
-
 </script>
     <!-- Jquery -->
     <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
