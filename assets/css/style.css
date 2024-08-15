@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 
-* {
-  text-transform:capitalize;
-}
+
 /*
 Description: Handyman Multipurpose Repairing Services HTML Template
 Author: themeholy
@@ -156,7 +154,6 @@ body {
   line-height: 26px;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  text-transform: capitalize  !important;
 
 
 }
