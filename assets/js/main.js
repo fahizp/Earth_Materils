@@ -1030,11 +1030,11 @@
 
     // document.getElementById('pdfButton').addEventListener('click', function() {
     //     // Open PDF in a new tab
-    //     window.open('assets\img\normal\Earth Materials vat registration Certificate .PDF', '_blank');
+    //     window.open('assets\img\normal\Earth's Materialvat registration Certificate .PDF', '_blank');
     //     // Create a temporary link element for downloading the PDF
     //     const link = document.createElement('a');
-    //     link.href = 'assets\img\normal\Earth Materials vat registration Certificate .PDF';
-    //     link.download = 'assets\img\normal\Earth Materials vat registration Certificate .PDF';
+    //     link.href = 'assets\img\normal\Earth's Materialvat registration Certificate .PDF';
+    //     link.download = 'assets\img\normal\Earth's Materialvat registration Certificate .PDF';
     //     document.body.appendChild(link);
     //     link.click();
     //     document.body.removeChild(link);
